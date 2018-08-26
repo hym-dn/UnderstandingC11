@@ -6,6 +6,9 @@ struct TestStruct{
     const char *name;
 };
 
+/**
+ * 输出调用类中的函数信息
+ */
 int main(){
     TestStruct ts;
     cout<<ts.name<<endl; // TestStruct
