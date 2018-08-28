@@ -2,6 +2,7 @@
 #include<cstdio>
 using namespace std;
 
+// 检测系统中定义的long long类型范围
 int main(){
     long long ll_min=LLONG_MIN;
     long long ll_max=LLONG_MAX;
