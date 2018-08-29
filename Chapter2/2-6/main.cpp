@@ -10,3 +10,5 @@ char *ArrayAlloc(int n){
 int main(){
     char *a=ArrayAlloc(0);
 }
+
+// 编译选项： g++ 2-5-1.cpp
