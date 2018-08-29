@@ -1,7 +1,7 @@
 #include<cassert>
 using namespace std;
 
-// 枚举编译器对各种特性的支持，没个枚举值占一位
+// 枚举编译器对各种特性的支持，每个枚举值占一位
 enum FeatureSupports{
     C99=0x0001,
     ExtInt=0x0002,
@@ -27,3 +27,5 @@ int main(){
         // 一些代码 ...
     }
 }
+
+// 编译选项： g++ 2-5-2.cpp
