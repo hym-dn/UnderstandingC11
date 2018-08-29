@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 
-void Throw(){throw 1;}
-void NoBlockThrow(){Throw();}
-void BlockThrow()noexcept{Throw();}
+void Throw() {throw 1;}
+void NoBlockThrow() {Throw();}
+void BlockThrow() noexcept {Throw();}
 
 int main(){
     try{
@@ -22,3 +22,5 @@ int main(){
         cout<<"Found throw 1."<<endl;
     }
 }
+
+// 编译选项： g++ -std=c++11 2-6-1.cpp
