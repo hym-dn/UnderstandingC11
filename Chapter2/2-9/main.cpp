@@ -16,3 +16,5 @@ int main(){
     double b;
     bit_copy(a,b);
 }
+
+// 编译选项： g++ -std=c++11 2-5-4.cpp
