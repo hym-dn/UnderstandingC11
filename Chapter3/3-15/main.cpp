@@ -23,3 +23,5 @@ private:
 int main() {
     DCExcept a(1.2);
 }
+
+// 编译选项：　g++ -std=c++11 3-2-7.cpp
